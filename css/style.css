@@ -4,3 +4,38 @@
     box-sizing: border-box;
 } 
 
+h1 {
+    color: white; 
+}
+
+h2 {
+    color: rgb(12, 132, 146);
+}
+
+section { 
+    position: relative; 
+    display: flex; 
+    flex-direction: column;
+}
+.sectionone {
+    padding: 65px;
+    text-align: center; 
+    align-items: center;
+    min-height: 200px; 
+    background-image: linear-gradient(rgb(33, 198, 216), black); 
+}
+.sectiontwo {
+    margin: 30px; 
+    background-color: white; 
+    text-align: left;
+}
+.sectionthree {
+    margin: 30px; 
+    background-color: white; 
+    text-align: right; 
+    margin-bottom: 30px; 
+}
+
+body {
+    margin: 0;
+}
