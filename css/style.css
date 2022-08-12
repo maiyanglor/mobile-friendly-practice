@@ -3,12 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 } 
-
-h1 {
+.media-example {
     color: white; 
     font-size: larger; 
 }
-
+@media (min-width: 480px) {
+    color: purple; 
+}
+@media (min-width: 768px) {
+    color: orange; 
+}
+@media (min-width: 1024px) {
+    color: yellow; 
+}
 h2 {
     color: rgb(12, 132, 146);
     font-size: small; 
